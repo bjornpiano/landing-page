@@ -33,5 +33,22 @@ a, .subhero {
 
 .button {
     background-color: #3882f6;
-    color: #E5E7EB;
+    color:white;
+}
+
+.information {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.subimage {
+    color:rgb(80, 80, 80);
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
