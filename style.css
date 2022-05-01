@@ -1,8 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    /*How to import the "roboto" font? */
 }
 
-.header, .face {
+.header, 
+.face {
     background-color: #1F2937;
 }
 
@@ -10,7 +12,6 @@ body {
     font-size: 24px;
     color: #F9faf8;
 }
-
 
 ul {
     list-style: none;
@@ -20,7 +21,9 @@ a {
     text-decoration: none;
 }
 
-a, .subhero {
+a, 
+.subhero,
+.subcall {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -33,7 +36,11 @@ a, .subhero {
 
 .button {
     background-color: #3882f6;
-    color:white;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    font-size: 18px;
+    border-radius: 11px;
+    font-weight: 700;
 }
 
 .information {
@@ -51,4 +58,27 @@ a, .subhero {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.call {
+    background-color:#3882f6;
+}
+
+.button.buttonbottom {
+    border: 1px solid #F9FAF8;
+}
+
+.topcall {
+    color:#F9FAF8;
+    font-size: 32px;
+}
+
+.subcall {
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
