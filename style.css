@@ -78,6 +78,21 @@ a,
     color:#1F2937;
     font-size: 36px;
     font-weight: 900;
+    text-align:center;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    gap: 32px;
+}
+
+/*Fix the container. See previous lesson on plants and text-alignment.*/
+
+.awesomeface {
+    height:100px;
 }
 
 .subimage {
@@ -85,14 +100,23 @@ a,
 }
 
 .quote {
+    display: flex;
+    text-align: center;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    padding: 100px;
+}
+
+.signup {
+    padding: 48px 96px;
 }
 
 .call {
     background-color:#3882f6;
+    border-radius: 8px;
+
 }
 
 .button.buttonbottom {
@@ -112,4 +136,7 @@ a,
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    text-align: center;
+    font-size: 18px;
+    padding: 24px;
 }
