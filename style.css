@@ -116,7 +116,10 @@ a,
 .call {
     background-color:#3882f6;
     border-radius: 8px;
-
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .button.buttonbottom {
