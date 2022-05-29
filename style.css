@@ -100,24 +100,34 @@ a,
 }
 
 .quote {
-    display: flex;
-    text-align: center;
     background-color: #E5E7EB;
+    padding: 100px 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.quotetext {
     font-size: 36px;
     font-style: italic;
+    text-align: left;
     color: #1F2937;
-    padding: 100px;
+}
+
+.quotesource {
+    text-align: right;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .signup {
-    padding: 48px 96px;
+    padding: 96px 192px;
 }
 
 .call {
     background-color:#3882f6;
     border-radius: 8px;
     align-items: center;
-    padding: 20px;
+    padding: 48px 96px;
     display: flex;
     justify-content: space-between;
 }
