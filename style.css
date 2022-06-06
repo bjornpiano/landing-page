@@ -74,17 +74,26 @@ a,
     height: 300px;
 }
 
+.awesomeinfo {
+    width: 200px;
+}
+
+.content {
+    padding: 80px;
+}
+
 .information {
     color:#1F2937;
     font-size: 36px;
     font-weight: 900;
     text-align:center;
-    padding: 40px;
+    padding-bottom: 40px;
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     text-align:center;
     gap: 32px;
 }
